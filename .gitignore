@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets (API keys for any demo code)
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Large / exported media
+*.mp4
+*.mov
+*.pptx
+*.key

@@ -6,6 +6,13 @@ A breakdown of **Learning What to Retain: Gated-Memory Routing for Efficient Col
 - **Venue:** EMNLP 2026 (Main)
 - **Paper:** [arXiv:2609.00237](https://arxiv.org/abs/2609.00237)
 
+## 🔗 Links
+
+- **Paper PDF:** [arXiv](https://arxiv.org/pdf/2609.00237)
+- **Medium Article:** [Medium](https://medium.com/@shrerampalanisamy/learning-what-to-retain-gated-memory-routing-for-multi-agent-llms-explained-56527f72886e)
+- **Video Presentation:** Coming soon
+- **Slides:** Coming soon
+
 ## 🧠 What the Paper Is About
 
 When several LLM agents work together on a task, something has to decide which agent (and which backbone model) acts next. If that decision looks only at the original query, it can't react to progress or mistakes along the way. If it looks at the full execution history, it carries redundant steps and costs more.
@@ -18,8 +25,8 @@ This paper instead routes each step using the query plus a compact, **learned ex
 
 Across five reasoning and code-generation benchmarks, it gets the best average accuracy (+2.44 points over the strongest baseline) and cuts inference cost on HumanEval by 31.9%.
 
-## 📦 Coming Soon
+## 📦 Project Deliverables
 
-- [ ] Medium article
+- [x] Medium article
 - [ ] YouTube video
 - [ ] Slides
